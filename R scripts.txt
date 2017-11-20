@@ -1,0 +1,142 @@
+# row names
+
+> rownames(rd) <- c("1_Chronicles", "1_Kings", "1_Samuel", "1QM", "1QS", "2_Chronicles", "2_Kings", "2_Samuel", "Amos", "Arad", "Balaam", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezekiel", "Ezra", "Genesis", "Habakkuk", "Haggai", "Hosea", "Isaiah", "Jeremiah", "Job", "Joel", "Jonah", "Joshua", "Judges", "Ketef_Hinnom", "Kuntillet_Ajrud", "Lachish", "Lamentations", "Leviticus", "Malachi", "Mesad_Hashavyahu", "Mesha_Stela", "Micah", "Nahum", "Nehemiah", "Numbers", "Obadiah", "Proverbs", "Psalms", "Ruth", "Siloam", "Song_of_songs", "Zechariah", "Zephaniah")
+
+> rownames(rds) <- c("Chronicles", "Kings", "Samuel", "1QM", "1QS", "Amos", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezekiel", "Ezra", "Genesis", "Habakkuk", "Haggai", "Hosea", "Isaiah", "Jeremiah", "Job", "Joel", "Jonah", "Joshua", "Judges", "Lamentations", "Leviticus", "Malachi", "Micah", "Nahum", "Nehemiah", "Numbers", "Obadiah", "Proverbs", "Psalms", "Ruth", "Song_of_songs", "Zechariah", "Zephaniah")
+
+rownames(core) <- c("1_Chronicles", "1_Kings", "1_Samuel", "1QM", "1QS", "2_Chronicles", "2_Kings", "2_Samuel", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezra", "Genesis", "Joshua", "Judges", "Leviticus", "Nehemiah", "Numbers")
+
+
+rownames(full) <- c("1_Chronicles", "1_Kings", "1_Samuel", "1QM", "1QS", "2_Chronicles", "2_Kings", "2_Samuel", "1_Kings_1_2_Kings_23", "2_Kings_24_25", "Amos", "Arad", "Balaam", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezekiel", "Ezra", "Genesis", "Habakkuk", "Haggai", "Hosea", "Isaiah", "I_Is", "II_Is", "III_Is", "Jeremiah", "Job", "Job_1_2", "Job_3_42", "Joel", "Jonah", "Joshua", "Judges", "Ketef_Hinnom", "Kuntillet_Ajrud", "Lachish", "Lamentations", "Leviticus", "Malachi", "Mesad_Hashavyahu", "Mesha_Stela", "Micah", "Nahum", "Nehemiah", "Numbers", "Obadiah", "Proverbs", "Pro_1_9_30_31", "Pro_10_29", "Psalms", "Ps_A", "Ps_B", "Ps_C", "Ruth", "Siloam", "Song_of_songs", "Zechariah", "Zephaniah")
+
+rownames(full) <- c("1_Chronicles_Po", "1_Kings_Pr", "1_Samuel_Pr", "1QM_Q", "1QS_Q", "2_Chronicles_Po", "2_Kings_Pr", "2_Samuel_Pr", "1_Kings_1_2_Kings_23_Pr", "2_Kings_24_25_Ex", "Amos_Pr", "Arad_A", "Balaam_A", "Daniel_Po", "Deuteronomy_Pr", "Ecclesiastes_Po", "Esther_Po", "Exodus_Pr", "Ezekiel_Ex", "Ezra_Po", "Genesis_Pr", "Habakkuk_Pr", "Haggai_Po", "Hosea_Pr", "Isaiah", "I_Is_Pr", "II_Is_Ex", "III_Is_Po", "Jeremiah_Ex", "Job", "Job_1_2_Po", "Job_3_42_Pr", "Joel_Po", "Jonah_Po", "Joshua_Pr", "Judges_Pr", "Ketef_Hinnom_A", "Kuntillet_Ajrud_A", "Lachish_A", "Lamentations_Ex", "Leviticus_Pr", "Malachi_Po", "Mesad_Hashavyahu_A", "Mesha_Stela_A", "Micah_Po", "Nahum_Pr", "Nehemiah_Po", "Numbers_Pr", "Obadiah_Pr", "Proverbs", "Pro_1_9_30_31_Po", "Pro_10_29_Pr", "Psalms", "Ps_A_Pr", "Ps_B_Po", "Ps_C_Po", "Ruth_Po", "Siloam_A", "Song_of_songs_Po", "Zechariah_Po", "Zephaniah_Pr")
+
+rownames(rdsl) <- c("1_Chronicles_Po", "1_Samuel_Pr", "1QM_Q", "1QS_Q", "2_Chronicles_Po", "2_Samuel_Pr", "1_Kings_1_2_Kings_23_Pr", "2_Kings_24_25_Ex", "Amos_Pr", "Daniel_Po", "Deuteronomy_Pr", "Ecclesiastes_Po", "Esther_Po", "Exodus_Pr", "Ezekiel_Ex", "Ezra_Po", "Genesis_Pr", "Habakkuk_Pr", "Haggai_Po", "Hosea_Pr", "I_Is_Pr", "II_Is_Ex", "III_Is_Po", "Jeremiah_Ex", "Job_1_2_Po", "Job_3_42_Pr", "Joel_Po", "Jonah_Po", "Joshua_Pr", "Judges_Pr", "Lamentations_Ex", "Leviticus_Pr", "Malachi_Po",  "Micah_Po", "Nahum_Pr", "Nehemiah_Po", "Numbers_Pr", "Obadiah_Pr", "Pro_1_9_30_31_Po", "Pro_10_29_Pr", "Ps_A_Pr", "Ps_B_Po", "Ps_C_Po", "Ruth_Po", "Song_of_songs_Po", "Zechariah_Po", "Zephaniah_Pr")
+
+rownames(rdsjl) <- c("Chronicles_Po", "Samuel_Pr", "1QM_Q", "1QS_Q", "1_Kings_1_2_Kings_23_Pr", "2_Kings_24_25_Ex", "Amos_Pr", "Daniel_Po", "Deuteronomy_Pr", "Ecclesiastes_Po", "Esther_Po", "Exodus_Pr", "Ezekiel_Ex", "Ezra_Po", "Genesis_Pr", "Habakkuk_Pr", "Haggai_Po", "Hosea_Pr", "I_Is_Pr", "II_Is_Ex", "III_Is_Po", "Jeremiah_Ex", "Job_1_2_Po", "Job_3_42_Pr", "Joel_Po", "Jonah_Po", "Joshua_Pr", "Judges_Pr", "Lamentations_Ex", "Leviticus_Pr", "Malachi_Po",  "Micah_Po", "Nahum_Pr", "Nehemiah_Po", "Numbers_Pr", "Obadiah_Pr", "Pro_1_9_30_31_Po", "Pro_10_29_Pr", "Ps_A_Pr", "Ps_B_Po", "Ps_C_Po", "Ruth_Po", "Song_of_songs_Po", "Zechariah_Po", "Zephaniah_Pr")
+
+rownames(rdcanon) <- c("1_Chronicles_Po", "1_Kings_Pr", "1_Samuel_Pr", "1QM_Q", "1QS_Q", "2_Chronicles_Po", "2_Kings_Pr", "2_Samuel_Pr", "Amos_Pr", "Daniel_Po", "Deuteronomy_Pr", "Ecclesiastes_Po", "Esther_Po", "Exodus_Pr", "Ezekiel_Ex", "Ezra_Po", "Genesis_Pr", "Habakkuk_Pr", "Haggai_Po", "Hosea_Pr", "Isaiah", "Jeremiah_Ex", "Job", "Joel_Po", "Jonah", "Joshua_Pr", "Judges_Pr", "Lamentations_Ex", "Leviticus_Pr", "Malachi_Po", "Micah_Po", "Nahum_Pr", "Nehemiah_Po", "Numbers_Pr", "Obadiah_Pr”, "Proverbs", "Psalms", "Ruth_Po", "Song_of_songs_Po", "Zechariah_Po", "Zephaniah_Pr")
+
+rownames(cannonjoint) <- c("Chronicles_Po", "Kings_Pr", "Samuel_Pr", "1QM_Q", "1QS_Q", "Amos_Pr", "Daniel_Po", "Deuteronomy_Pr", "Ecclesiastes_Po", "Esther_Po", "Exodus_Pr", "Ezekiel_Ex", "Ezra_Po", "Genesis_Pr", "Habakkuk_Pr", "Haggai_Po", "Hosea_Pr", "Isaiah", "Jeremiah_Ex", "Job", "Joel_Po", "Jonah", "Joshua_Pr", "Judges_Pr", "Lamentations_Ex", "Leviticus_Pr", "Malachi_Po", "Micah_Po", "Nahum_Pr", "Nehemiah_Po", "Numbers_Pr", "Obadiah_Pr", "Proverbs", "Psalms", "Ruth_Po", "Song_of_songs_Po", "Zechariah_Po", "Zephaniah_Pr")
+
+rownames(small) <- c("1_Chronicles", "1_Samuel", "1QM", "1QS", "2_Chronicles", "2_Samuel", "1_Kings_1_2_Kings_23", "2_Kings_24_25", "Amos", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezekiel", "Ezra", "Genesis", "Habakkuk", "Haggai", "Hosea", "I_Is", "II_Is", "III_Is", "Jeremiah", "Job_1_2", "Job_3_42", "Joel", "Jonah", "Joshua", "Judges", "Lamentations", "Leviticus", "Malachi", "Micah", "Nahum", "Nehemiah", "Numbers", "Obadiah", "Pro_1_9_30_31", "Pro_10_29", "Ps_A", "Ps_B", "Ps_C", "Ruth", "Song_of_songs", "Zechariah", "Zephaniah")
+
+rownames(corea) <- c("1_Chronicles", "1_Kings", "1_Samuel", "1QM", "1QS", "2_Chronicles", "2_Kings", "2_Samuel", "Arad", "Balaam", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezra", "Genesis", "Joshua", "Judges", "Ketef_Hinnom", "Kuntillet_Ajrud", "Leviticus", "Mesad_Hashavyahu", "Mesha_Stela", "Nehemiah", "Numbers", "Siloam")
+
+rownames(corejoint) <- c("Chronicles", "Kings", "Samuel", "1QM", "1QS", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezra", "Genesis", "Joshua", "Judges", "Leviticus", "Nehemiah", "Numbers")	
+
+
+# dendrogram
+
+my_data <- read.csv(file.choose())
+
+rds <- scale(my_data)
+
+rownames(rds) <- c("Chronicles", "Kings", "Samuel", "1QM", "1QS", "Amos", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezekiel", "Ezra", "Genesis", "Habakkuk", "Haggai", "Hosea", "Isaiah", "Jeremiah", "Job", "Joel", "Jonah", "Joshua", "Judges", "Lamentations", "Leviticus", "Malachi", "Micah", "Nahum", "Nehemiah", "Numbers", "Obadiah", "Proverbs", "Psalms", "Ruth", "Song_of_songs", "Zechariah", "Zephaniah")
+
+res.dist <- dist(rds, method = "euclidean")
+
+library("factoextra")
+
+res.hc <- hclust(d = res.dist, method = "average")
+
+fviz_dend(res.hc, cex = 0.5)
+
+fviz_dend(res.hc, h = 6.8, color_labels_by_k = TRUE, rect = TRUE)
+
+fviz_dend(res.hc, h = 5, color_labels_by_k = TRUE, labels_track_height=1.5, rect = TRUE)
+
+
+
+# cluster plot - after importing, scaling, and row names:
+
+> set.seed(123)
+> km.res <- kmeans(rdsnom, 3, nstart = 25)
+> fviz_cluster(km.res, data = rdsnom, repel = TRUE, ggtheme = theme_minimal())
+
+> pam.res <- pam(rdsnom, 4)
+> fviz_cluster(pam.res, repel = TRUE, ggtheme = theme_classic())
+
+# test for clusters:
+
+> library(factoextra)
+> fviz_nbclust(rdsnom, kmeans, method = "wss")
+
+# dendrogram with p-values; use inverted data, keep book names/delete feature names
+
+my_data <- read.csv(file.choose())
+rds <- scale(my_data)
+library(pvclust)
+fit <- pvclust(my_data, method.hclust="ward.D2", method.dist="euclidean")
+plot(fit)
+pvrect(fit, alpha=.95)
+
+
+# pam
+
+groups.4 = cutree(res.hc,4)
+library(cluster)
+rds.pam = pam(res.dist,4)
+table(groups.4,rds.pam$clustering)
+plot(rds.pam)
+
+pam.res <- pam(my_data, 4)
+fviz_cluster(pam.res)
+
+
+# agnes and cluster strength
+
+hc2 <- agnes(df, method = "complete")
+hc2$ac
+
+m <- c( "average", "single", "complete", "ward")
+names(m) <- c( "average", "single", "complete", "ward")
+ac <- function(x) {agnes(df, method = x)$ac}
+
+map_dbl(m, ac)
+
+http://uc-r.github.io/hc_clustering
+
+
+#compare dendrograms
+
+library(dendextend)
+tanglegram(dend1, dend2)
+
+denav <- hclust(d = res.dist, method = "average")
+dencom <- hclust(d = res.dist, method = "complete")
+denward <- hclust(d = res.dist, method = "ward.D2")
+
+tanglegram(denav, denward,highlight_distinct_edges = FALSE, common_subtrees_color_lines = FALSE, common_subtrees_color_branches = TRUE)
+tanglegram(denav, denward,highlight_distinct_edges = FALSE)
+
+
+#aggregate - raw data comparison for clusters
+
+groups.4 = cutree(denward,4)
+aggregate(my_data,list(groups.4),median)
+
+
+# rawdatacore tests
+
+rownames(coresong) <- c("1_Chronicles", "1_Kings", "1_Samuel", "1QM", "1QS", "2_Chronicles", "2_Kings", "2_Samuel", "Daniel", "Deuteronomy", "Ecclesiastes", "Esther", "Exodus", "Ezra", "Genesis", "Joshua", "Judges", "Leviticus", "Nehemiah", "Numbers", "song")
+
+
+# row names ethiopic orth
+
+rownames(amos) <- c("Amos,EMIP1029_l15th", "Amos,EMIP0746_e19th", "Amos,EMIP0881_17th", "Amos,EMIP2007_18th", "Amos,EMIP1063_l19e20th", "Amos,IES436_15/16", "Amos,EMML6686_17th", "Amos,EMIP1095_19th", "Amos,Hunt625_14th", "Amos,IES77_1934", "Amos,EMML1768_l15th", "Amos,EMML1481_e17", "Amos,Cerulli75_1935", "Amos,AxumZion_15th", "Amos,UNES10.04_l17e18th", "Amos,UNES10.65_l18e19th", "Amos,EMIP949_20th", "Amos,UNESCO10.34_1931", "Amos,EMIP654_l15th", "Amos,GG106_1682-1706", "Amos,GG152_16th", "Amos,GG181_16th", "Amos,EMML1842_1662/3", "Amos,EMML2080_16th", "Amos,EMML2440_1663", "Amos,EMML6930_18th", "Amos,EMML7584_16th", "Amos,GG203_15th", "Amos,EMML36_18/19th", "Amos,Abb55_15/16th", "Amos,Wien16_15th", "Amos,JE5E_19th", "Amos,Prince7_17th", "Amos,EMML349_1923/4", "Amos,Abb35_17th", "Amos,EMIP1070_1914", "Amos,Cam1570_1588/9")
+
+rownames(esther) <- c("Esther,EMIP746_1719", "Esther,EMIP881_17th", "Esther,EMIP1051_17th", "Esther,EMIP1088_19th", "Esther,EMIP1123_17-18th", "Esther,EMIP1128_1895", "Esther,EMML57_15-16th", "Esther,EMML819_l18th", "Esther,EMML1481_17th", "Esther,EMML8846_18th", "Esther,UNES2.13_19th", "Esther,UNES2.18_19th", "Esther,UNES2.22_19th", "Esther,UNES10.12_18th", "Esther,Cerulli75_1930/1", "Esther,IES77_1934", "Esther,EMIP1029_15-16th", "Esther,GG106_1682-1706", "Esther,EMML1768_l15th", "Esther,EMML2080_16th", "Esther,EMML7584_16th", "Esther,JE1E_1783", "Esther,Abb35_17th", "Esther,Haz105_20th", "Esther,GG69_193_15th", "Esther,Abb55_15-16th", "Esther,EMIP688_1971", "Esther,EMIP924_l19-e20th", "Esther,EMIP975_19th", "Esther,UNES2.09_l19-e20th", "Esther,UNES10.36_1931", "Esther,BL24991_17th")
+
+rownames(obadiah) <- c("Obadiah,EMIP1029MihGed54_15-16th", "Obadiah,EMIP2007Tweed58_18th", "Obadiah,EMIP746ChelSel5_1719", "Obadiah,EMIP881ChelSel142_17th", "Obadiah,UNES10.04_17-18th", "Obadiah,DaviesAxumZion_15th", "Obadiah,EMIP1063AddAlem21_19-20th", "Obadiah,UNES10.34_1931", "Obadiah,UNES10.65_18-19th", "Obadiah,IES436_15-16th", "Obadiah,EMML6686_17th", "Obadiah,EMIP1095AddAlem53_19th", "Obadiah,IES77_1934", "Obadiah,EMML1768_l15th", "Obadiah,EMML2080_16th", "Obadiah,EMML1481_e17th", "Obadiah,EMML1842_1662", "Obadiah,VatCer75_1930", "Obadiah,GG152_16th", "Obadiah,GG181_16th", "Obadiah,GG106_1694", "Obadiah,EMIP949MekMik172_19-20th", "Obadiah,BodAethd12Hunt625_14th", "Obadiah,GG203_15th", "Obadiah,EMML2440_1663", "Obadiah,EMML6930_18th", "Obadiah,EMML7584_16th", "Obadiah,BNd'Abb35_17th", "Obadiah,BNd'Abb55_15-16th", "Obadiah,Wien16_15th", "Obadiah,JE5E_19th", "Obadiah,PrinceGarEth7_18th", "Obadiah,BodBruce74_16-17th", "Obadiah,EMML36_18-19th", "Obadiah,EMIP1070_1914", "Obadiah,CamAdd1570_1588-9", "Obadiah,EMML349_1923", "Obadiah,FrankOr10_1780-86")
+
+rownames(hosea) <- c("Hosea,EMIP1029_l15th", "Hosea,EMIP0746_e19th", "Hosea,EMIP0881_17th", "Hosea,EMIP1063_l19e20th", "Hosea,EMIP1095_19th", "Hosea,EMIP2007_18th", "Hosea,IES77_1934", "Hosea,EMML1768_l15th", "Hosea,EMML1481_e17th", "Hosea,EMML6686-17th", "Hosea,Cerulli75_1935", "Hosea,DaviesAxum_l15e16th", "Hosea,EMIP949_20th", "Hosea,UNES10.04_l17e18th", "Hosea,UNESCO10.34_1931", "Hosea,UNES10.65_l18e19th", "Hosea,EMIP654_l15th", "Hosea,EMML8934_14th", "Hosea,GG106_1682-1706", "Hosea,GG152_16th", "Hosea,GG181_16th", "Hosea,EMML1842_1662/3", "Hosea,EMML2080_16th", "Hosea,EMML2440_1663", "Hosea,EMML6930_18th", "Hosea,EMML7584_16th", "Hosea,Prince7_17th", "Hosea,Abb55_15/16th", "Hosea,Wien16_15th", "Hosea,GG203_15th", "Hosea,JE5E_19th", "Hosea,EMML36_18/19th", "Hosea,EMML349_1923/4", "Hosea,EMIP1070_1914", "Hosea,Cam1570_1588/9", "Hosea,Abb35_17th")
+
+rownames(jeremiah) <- c("Jeremiah,Ber3067_16th", "Jeremiah,BerPeter42_15th", "Jeremiah,BLAdd24991_17th", "Jeremiah,BLOr496_17th", "Jeremiah,BNAbb35_17th", "Jeremiah,BNAbb55_15th", "Jeremiah,CamAdd1570_1588/9", "Jeremiah,EMIP682_20th", "Jeremiah,EMIP827_18th", "Jeremiah,EMIP937_19th", "Jeremiah,EMIP945_18th", "Jeremiah,EMIP1029_15th", "Jeremiah,EMIP1051_17th", "Jeremiah,EMIP1083_18th", "Jeremiah,EMIP1091_1921", "Jeremiah,EMIP1105_l18-e19th", "Jeremiah,IES722=EMML25_16th", "Jeremiah,EMML65_e19th", "Jeremiah,EMML2080_14th", "Jeremiah,EMML2082_16-17th", "Jeremiah,EMML6686_17th", "Jeremiah,EMML7584_16th", "Jeremiah,EMML8644_15th", "Jeremiah,EMML8671_15th", "Jeremiah,GG63_15th", "Jeremiah,GG106_1682-1706", "Jeremiah,GG183_15th", "Jeremiah,IES77_1934", "Jeremiah,ML26_14-15th", "Jeremiah,UNES2.16_19th", "Jeremiah,UNES10.12_18th", "Jeremiah,UNES10.4_17-18th", "Jeremiah,UNES10.48_e20th", "Jeremiah,VatCer75_1930")
+
+rownames(judges) <- c("Judges,IES77_1933", "Judges,DavKebran_1417", "Judges,DavMaqale1_1409", "Judges,DavDabraBizan_16", "Judges,EMIP683_18", "Judges,EMIP743_18", "Judges,EMIP754_l18", "Judges,EMML39_19", "Judges,DavMaqale2_15", "Judges,EMML9001_e15", "Judges,EMIP1115_1895", "Judges,EMIP2111_17/18", "Judges,Cerulli75_1938", "Judges,BL480_15", "Judges,EMML510_18", "Judges,EMML7637_16", "Judges,EMML1842_1662", "Judges,GG60_16", "Judges,GG88_15", "Judges,EMML1929_1434-68", "Judges,EMML2098_15", "Judges,EMML2388_1768", "Judges,EMML2436_1663", "Judges,EMML6359_1678", "Judges,EMML6557_1894", "Judges,CamAdd1570_1588", "Judges,BL481_17", "Judges,QQMaryam_1664", "Judges,AddiQolqwal_16", "Judges,UraMasqal_14", "Judges,EMIP1037+1038_15", "Judges,Martini2_1438")
+
+rownames(psalms) <- c("Psalms,DavDabDam2_e16th", "Psalms,DavDabLib_16th", "Psalms,EMDL112_e17th", "Psalms,EMIP9_18th", "Psalms,EMIP24_e18th", "Psalms,EMIP30_18th", "Psalms,EMIP60_18th", "Psalms,EMIP99_17th", "Psalms,EMIP110_19th", "Psalms,EMIP161_l19th", "Psalms,EMIP242_19th", "Psalms,EMIP342_18th", "Psalms,EMIP343_16-17th", "Psalms,EMIP395_17th", "Psalms,IES74_l15th", "Psalms,IES837_15th", "Psalms,IES77_1934-5", "Psalms,EMIP2175_20th", "Psalms,EMDL274_l18th", "Psalms,EMIP243_18th", "Psalms,EMML2010_14-15th", "Psalms,Leid4734_15th", "Psalms,DavKebran_15th", "Psalms,EMML3071_16th", "Psalms,Leid14617_l18-e19th", "Psalms,BN10_15th", "Psalms,BNAbb105_15th", "Psalms,VatEt4_14th", "Psalms,VatEt7_14th", "Psalms,EMML4415_15th", "Psalms,EMML2064_14th", "Psalms,EMML4916_15th", "Psalms,EMDL290_15th", "Psalms,BarbOr2_14th", "Psalms,BerlinOr172_15th", "Psalms,VatEt15_15th", "Psalms,BodPocock3_16th", "Psalms,EMIP1_17th", "Psalms,EMIP12_17th", "Psalms,Tan103_17th", "Psalms,Leid22026_17th", "Psalms,Leid14664_l19-e20th", "Psalms,Leid20531_19th", "Psalms,Leid17086_l19th", "Psalms,Leid17087_20th", "Psalms,Leid17088_20th")
+
+rownames(ruth) <- c("Ruth,DavKebran_1417", "Ruth,EMIP2111_17/18", "Ruth,IES77_1933", "Ruth,EMML9001_e15", "Ruth,EMML39_19", "Ruth,DavMaqale1_1409", "Ruth,Cerulli75_1938", "Ruth,DavDabraBizan_16", "Ruth,EMIP683_18", "Ruth,EMIP743_18", "Ruth,EMIP754_l18", "Ruth,EMIP1115_1895", "Ruth,EMML510_18", "Ruth,EMML7637_16", "Ruth,GG60_16", "Ruth,GG88_15", "Ruth,EMML1842_1662", "Ruth,EMML1929a_1434/68", "Ruth,EMML2098_15", "Ruth,EMML2388_1768", "Ruth,EMML2436_1663", "Ruth,EMML6359_1678", "Ruth,EMML6557_1894", "Ruth,EMIP1037+1038_15", "Ruth,BL480_15", "Ruth,BL481_17", "Ruth,CamAdd1570_1588", "Ruth,EMML1929b_17th", "Ruth,QQMaryam_1664", "Ruth,AddiQolqwal_16", "Ruth,UraMasqal_14", "Ruth,Martini2_1438")
+
